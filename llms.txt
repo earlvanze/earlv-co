@@ -10,12 +10,14 @@
 - Current work: https://tekiz.ai
 - Real-asset access: https://fre.market
 - Direct hospitality: https://earlbnb.com
+- Personal health tools: https://ourbluefairy.com
 
 ## Areas of work
 
 - TEKIZ.AI: agentic control-plane infrastructure with clear operational boundaries.
 - fre.market: a marketplace for investing in smaller portions of real assets.
 - earlbnb.com: direct stays across a portfolio of apartments and distinctive homes.
+- BlueFairy: organizes personal health records and observations into a clearer case for care discussions.
 - Independent hospitality: technology-enabled operations around memorable real-world places.
 - Ownership infrastructure: research into capital, governance, and participation around tangible value.
 
