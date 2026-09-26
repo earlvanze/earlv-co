@@ -7,10 +7,15 @@
 - Website: https://earlv.co/
 - Contact: earlco@nyu.edu
 - LinkedIn: https://www.linkedin.com/in/earlco
+- GitHub: https://github.com/earlco
 - Current work: https://tekiz.ai
 - Real-asset access: https://fre.market
 - Direct hospitality: https://earlbnb.com
 - Personal health tools: https://ourbluefairy.com
+- AI operations: https://aops.studio
+- Learning systems: https://genius.aops.studio
+- Hudson Valley stays: https://stonemanorhudson.com
+- Sonoma Coast stays: https://stayclarkscove.com
 
 ## Areas of work
 
@@ -18,6 +23,11 @@
 - fre.market: a marketplace for investing in smaller portions of real assets.
 - earlbnb.com: direct stays across a portfolio of apartments and distinctive homes.
 - BlueFairy: organizes personal health records and observations into a clearer case for care discussions.
+- AOPS Studio: done-for-you AI operations for teams with recurring coordination, reporting, and administrative bottlenecks.
+- Genius in 21 Days: a guided program for learning faster and retaining more of what matters.
+- Stone Manor: a private four-bedroom Hudson River retreat in Briarcliff Manor, New York.
+- Clark’s Cove: a private coastal home above the Pacific in Jenner, California.
+- GitHub: Earl Co's public developer profile and source-code presence.
 - Ownership infrastructure: research into capital, governance, and participation around tangible value.
 
 ## Principles
