@@ -9,11 +9,13 @@
 - LinkedIn: https://www.linkedin.com/in/earlco
 - Current work: https://tekiz.ai
 - Real-asset access: https://fre.market
+- Direct hospitality: https://earlbnb.com
 
 ## Areas of work
 
 - TEKIZ.AI: agentic control-plane infrastructure with clear operational boundaries.
 - fre.market: a marketplace for investing in smaller portions of real assets.
+- earlbnb.com: direct stays across a portfolio of apartments and distinctive homes.
 - Independent hospitality: technology-enabled operations around memorable real-world places.
 - Ownership infrastructure: research into capital, governance, and participation around tangible value.
 
