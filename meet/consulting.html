@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tech Consulting Call | Earl Vanze Co</title>
+    <meta name="description" content="Book a free tech consulting call with Earl Vanze Co about software, automation, AI tooling, and infrastructure for your business." />
+    <link rel="canonical" href="https://meet.earlv.co/consulting" />
+    <meta name="theme-color" content="#0a0d12" />
+    <meta property="og:title" content="Tech Consulting Call | Earl Vanze Co" />
+    <meta property="og:description" content="Book a free tech consulting call with Earl Vanze Co about software, automation, AI tooling, and infrastructure for your business." />
+    <meta property="og:url" content="https://meet.earlv.co/consulting" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="/meet.css" />
+  </head>
+  <body data-topic="consulting">
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <a class="wordmark" href="/" aria-label="Book a call with Earl Vanze Co">EARL VANZE CO</a>
+      <nav class="nav" aria-label="Booking pages">
+        <a href="/real-estate">Real estate</a>
+        <a href="/consulting" aria-current="page">Consulting</a>
+        <a href="https://earlv.co">earlv.co</a>
+      </nav>
+    </header>
+    <main id="main">
+      <p class="eyebrow">Tech consulting</p>
+      <h1>Book a free consultation.</h1>
+      <p class="lede">Tell me what you want to build, fix, or automate. We will scope the right next step for your business, whether that is software, automation, AI tooling, or infrastructure.</p>
+      <div class="grid">
+        <section class="panel" aria-labelledby="about">
+          <script type="application/json" id="booking-options">
+{
+  "action": "book_call",
+  "topic": "consulting",
+  "browser": {
+    "url": "https://meet.earlv.co/consulting",
+    "verification": "Cloudflare Turnstile"
+  },
+  "availability": {
+    "method": "GET",
+    "url": "https://awtangrlqqsdpksarhwo.functions.supabase.co/book-call-earlv/availability",
+    "authentication": "none",
+    "returns": "open slots with ISO start and end times"
+  },
+  "agents": {
+    "method": "email",
+    "to": "earlco@nyu.edu",
+    "include": [
+      "name",
+      "email",
+      "company",
+      "slot start (ISO 8601, from availability)",
+      "topic"
+    ],
+    "response": "a person confirms by calendar invitation"
+  }
+}
+          </script>
+          <h2 id="about">What to bring</h2>
+          <ul>
+            <li>The biggest bottleneck you want off your plate</li>
+            <li>The kind of business you run and the tools you use today</li>
+            <li>What currently breaks: follow-up, reporting, inboxes, data, deployments, or access to your own systems</li>
+            <li>The outcome you want in the next 90 days</li>
+          </ul>
+          <p>We will scope what to build, what to buy, and what to leave alone.</p>
+        </section>
+        <section class="panel" aria-labelledby="choose">
+          <h2 id="choose">Choose a time</h2>
+          <p id="slots-status" class="status" aria-live="polite">Loading availability...</p>
+          <div id="slots" class="slots" role="group" aria-label="Open time slots"></div>
+          <form id="book-form" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required maxlength="120" />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="200" />
+            <label for="company">Company</label>
+            <input id="company" name="company" autocomplete="organization" maxlength="160" />
+            <label for="notes">What would you like to talk about?</label>
+            <textarea id="notes" name="notes" maxlength="2000"></textarea>
+            <div class="hp" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <div id="challenge"></div>
+            <p id="selected-slot" class="status">No time selected yet.</p>
+            <p id="book-status" class="status" aria-live="polite"></p>
+            <button id="book-btn" class="button" type="submit">Book call</button>
+          </form>
+          <div id="confirm" class="confirm" hidden></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <span>&copy; Earl Vanze Co</span>
+      <span>Calls are 30 minutes on Google Meet. You get a calendar invitation by email.</span>
+    </footer>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+    <script defer src="/book.js"></script>
+  </body>
+</html>
