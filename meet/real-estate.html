@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Real Estate Investing and Renatus Call | Earl Vanze Co</title>
+    <meta name="description" content="Book a call with Earl Vanze Co about real estate investing, Renatus, and personal and business finance goals." />
+    <link rel="canonical" href="https://meet.earlv.co/real-estate" />
+    <meta name="theme-color" content="#0a0d12" />
+    <meta property="og:title" content="Real Estate Investing and Renatus Call | Earl Vanze Co" />
+    <meta property="og:description" content="Book a call with Earl Vanze Co about real estate investing, Renatus, and personal and business finance goals." />
+    <meta property="og:url" content="https://meet.earlv.co/real-estate" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="/meet.css" />
+  </head>
+  <body data-topic="real-estate">
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <a class="wordmark" href="/" aria-label="Book a call with Earl Vanze Co">EARL VANZE CO</a>
+      <nav class="nav" aria-label="Booking pages">
+        <a href="/real-estate" aria-current="page">Real estate</a>
+        <a href="/consulting">Consulting</a>
+        <a href="https://earlv.co">earlv.co</a>
+      </nav>
+    </header>
+    <main id="main">
+      <p class="eyebrow">Real estate investing and Renatus</p>
+      <h1>Business and personal finance coaching.</h1>
+      <p class="lede">Welcome to my scheduling page. Pick an open time and follow the instructions to schedule a Google Meet call on my calendar.</p>
+      <div class="grid">
+        <section class="panel" aria-labelledby="about">
+          <script type="application/json" id="booking-options">
+{
+  "action": "book_call",
+  "topic": "real-estate",
+  "browser": {
+    "url": "https://meet.earlv.co/real-estate",
+    "verification": "Cloudflare Turnstile"
+  },
+  "availability": {
+    "method": "GET",
+    "url": "https://awtangrlqqsdpksarhwo.functions.supabase.co/book-call-earlv/availability",
+    "authentication": "none",
+    "returns": "open slots with ISO start and end times"
+  },
+  "agents": {
+    "method": "email",
+    "to": "earlco@nyu.edu",
+    "include": [
+      "name",
+      "email",
+      "company",
+      "slot start (ISO 8601, from availability)",
+      "topic"
+    ],
+    "response": "a person confirms by calendar invitation"
+  }
+}
+          </script>
+          <h2 id="about">What this call covers</h2>
+          <p>This call is focused on the exchange of ideas on how you can advance your personal and business goals.</p>
+          <p>Earl has over seven years of experience as a successful real estate investor, entrepreneur, public speaker, and personal finance and personal development trainer. It is Earl's goal to help others however he can to achieve their dreams and to work towards a path of financial liberation.</p>
+          <ul>
+            <li>Real estate investing: where you are now and what you want to build</li>
+            <li>Questions about Renatus and how it fits your plans</li>
+            <li>Personal and business finance goals</li>
+          </ul>
+        </section>
+        <section class="panel" aria-labelledby="choose">
+          <h2 id="choose">Choose a time</h2>
+          <p id="slots-status" class="status" aria-live="polite">Loading availability...</p>
+          <div id="slots" class="slots" role="group" aria-label="Open time slots"></div>
+          <form id="book-form" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required maxlength="120" />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="200" />
+            <label for="company">Company</label>
+            <input id="company" name="company" autocomplete="organization" maxlength="160" />
+            <label for="notes">What would you like to talk about?</label>
+            <textarea id="notes" name="notes" maxlength="2000"></textarea>
+            <div class="hp" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <div id="challenge"></div>
+            <p id="selected-slot" class="status">No time selected yet.</p>
+            <p id="book-status" class="status" aria-live="polite"></p>
+            <button id="book-btn" class="button" type="submit">Book call</button>
+          </form>
+          <div id="confirm" class="confirm" hidden></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <span>&copy; Earl Vanze Co</span>
+      <span>Calls are 30 minutes on Google Meet. You get a calendar invitation by email.</span>
+    </footer>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+    <script defer src="/book.js"></script>
+  </body>
+</html>
